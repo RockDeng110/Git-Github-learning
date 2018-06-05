@@ -18,10 +18,12 @@
 ## more details, please refer to [github tutorial](https://services.github.com/on-demand/github-cli/merge-pull-request-github)
 
 提交： git commit -m 
+
 跳过 stage 提交： git commit -m -a
 
 
 对比working directory, staged and commits 相互之间的差异：
+
 1，  查看不同提交版本之间有差异的文件
 git diff --name-status HEAD~2 HEAD~3
 
@@ -44,6 +46,7 @@ git diff commit1 commit2 [--] [file directory]
 1，三棵树同时恢复历史版本（会检查工作目录下的文件）：
 
  git checkout [commit]
+ 
 
 2，恢复单个文件的历史版本(不动HEAD指针)：
 
