@@ -26,7 +26,7 @@
 
 1，  查看不同提交版本之间有差异的文件
 
-git diff --name-status HEAD~2 HEAD~3
+git diff --name-status HEAD~/2 HEAD~/3
 
 
 2， 查看working directory 和 staged/commits 之间的差异
