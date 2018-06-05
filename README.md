@@ -22,7 +22,7 @@
 跳过 stage 提交： git commit -m -a
 
 
-对比working directory, staged and commits 相互之间的差异：
+## 对比working directory, staged and commits 相互之间的差异：
 
 1，  查看不同提交版本之间有差异的文件
 git diff --name-status HEAD~2 HEAD~3
@@ -41,7 +41,7 @@ git diff commit1 commit2 [--] [file directory]
 
 
 
-回复历史文件：
+## 回复历史文件：
 
 1，三棵树同时恢复历史版本（会检查工作目录下的文件）：
 
