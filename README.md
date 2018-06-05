@@ -25,18 +25,22 @@
 ## 对比working directory, staged and commits 相互之间的差异：
 
 1，  查看不同提交版本之间有差异的文件
+
 git diff --name-status HEAD~2 HEAD~3
 
 
 2， 查看working directory 和 staged/commits 之间的差异
+
 git diff  [HEAD~N] [--] [file directory]
 
 
 3，查看 staged 和 commits 之间的差异
+
 git diff  --cached [HEAD~N] [--] [file directory]
 
 
 4，查看不同commit 之间的差异
+
 git diff commit1 commit2 [--] [file directory]
 
 
