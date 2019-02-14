@@ -59,7 +59,17 @@ git diff commit1 commit2 [--] [file directory]
  # svn learning
  ##  critical commands
  1, svn log -l 3 -v
+ 
    查看最近的3个revision, 以及相互之间有改动的文件。
    
- 2， svn log -v -r88:90
+   
+ 2，svn log -v -r88:90
+ 
    查看从revision 88 - 90的log, 以及每一次commit有改动的文件
+   
+   
+ 3, svn diff -r77:78 [file directory]   
+ 
+   查看某个文件在版本77和78之间的改动
+   
+   
