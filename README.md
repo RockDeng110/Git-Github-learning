@@ -73,3 +73,22 @@ git diff commit1 commit2 [--] [file directory]
    查看某个文件在版本77和78之间的改动
    
    
+   
+# git-svn
+## critical commands
+1, git-svn rebase
+
+This will download all new changesets from Subversion, apply them to the last checkout from Subversion, and then re-apply your local changes on top of that.Just like git pull.
+
+
+2, git-svn dcommit
+
+When you’re ready to commit back to Subversion, execute it. Just like git push.
+
+
+3, git-svn clone [url]
+
+Checking out a Subversion repository.
+
+
+
