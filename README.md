@@ -91,4 +91,9 @@ When you’re ready to commit back to Subversion, execute it. Just like git push
 Checking out a Subversion repository.
 
 
+4, 当 git svn rebase 出现冲突时
+
+可以按错误提示解决问题： 1， 先修改冲突文件解决冲突；
+                     2， git add 修改好的冲突文件；
+                     3， git rebase --continue 重新执行git pull
 
