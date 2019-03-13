@@ -96,4 +96,8 @@ Checking out a Subversion repository.
 可以按错误提示解决问题： 1， 先修改冲突文件解决冲突；
                      2， git add 修改好的冲突文件；
                      3， git rebase --continue 重新执行git pull
+                     
+5, checkout svn 仓库
+
+git-svn clone [-s] http://example.com/my_subversion_repo
 
