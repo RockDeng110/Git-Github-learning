@@ -72,6 +72,11 @@ git diff commit1 commit2 [--] [file directory]
  
    查看某个文件在版本77和78之间的改动
    
+ 
+ 4,  svn up -r 147 myfile.py
+   
+   恢复某个文件到历史版本
+   
    
    
 # git-svn
