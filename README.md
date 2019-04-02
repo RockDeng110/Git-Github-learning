@@ -78,6 +78,9 @@ git diff commit1 commit2 [--] [file directory]
    恢复某个文件到历史版本
    
    
+ 5,  svn info 查看代码仓库的url等信息
+   
+   
    
 # git-svn
 ## critical commands
