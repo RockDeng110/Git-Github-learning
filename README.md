@@ -109,3 +109,7 @@ Checking out a Subversion repository.
 
 git-svn clone [-s] http://example.com/my_subversion_repo
 
+
+6, git-svn info
+
+show the url of repository and etc.
