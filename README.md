@@ -113,3 +113,7 @@ git-svn clone [-s] http://example.com/my_subversion_repo
 6, git-svn info
 
 show the url of repository and etc.
+
+
+7, when svn repository swith url
+solution: https://git.wiki.kernel.org/index.php/GitSvnSwitch
