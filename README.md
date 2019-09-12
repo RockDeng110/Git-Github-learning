@@ -1,4 +1,11 @@
 # Git-Github-learning
+## create git repository at server end
+1, create a bare reopsitory
+   git clone --bare my_project my_project.git
+2, generate a git account for authority management
+   Please refer https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
+3, Develpers could clone or git pull this reop   
+   
 ## records for git & github learning
 1. Create a new repo on github
 1. move the repo created on web to your local machine by git clone 
