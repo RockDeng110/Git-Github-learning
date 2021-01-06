@@ -1,6 +1,11 @@
 # Git-Github-learning
 
 ### stop tracking files
+
+```sh
+git rm --cached <file>
+git rm -r --cached <folder>
+```
 please refer to https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
 
 
