@@ -1,5 +1,10 @@
 # Git-Github-learning
-## create git repository at server end
+
+### stop tracking files
+please refer to https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
+
+
+### create git repository at server end
 1, create a bare reopsitory
 
    git clone --bare my_project my_project.git
@@ -11,7 +16,7 @@
 3, Develpers could clone or git pull this reop   
    
    
-## records for git & github learning
+### records for git & github learning
 1. Create a new repo on github
 1. move the repo created on web to your local machine by git clone 
    1. If the repo is private, you need input the account&password of the reop on the github.
@@ -27,14 +32,14 @@
 1. Refresh the reop:
    1. use :    git pull
    
-## more details, please refer to [github tutorial](https://services.github.com/on-demand/github-cli/merge-pull-request-github)
+### more details, please refer to [github tutorial](https://services.github.com/on-demand/github-cli/merge-pull-request-github)
 
 提交： git commit -m 
 
 跳过 stage 提交： git commit -m -a
 
 
-## 对比working directory, staged and commits 相互之间的差异：
+### 对比working directory, staged and commits 相互之间的差异：
 
 1，  查看不同提交版本之间有差异的文件
 
@@ -57,7 +62,7 @@ git diff commit1 commit2 [--] [file directory]
 
 
 
-## 回复历史文件：
+### 回复历史文件：
 
 1，三棵树同时恢复历史版本（会检查工作目录下的文件）：
 
@@ -68,8 +73,8 @@ git diff commit1 commit2 [--] [file directory]
 
  git reset (comit) -- file
  
- # svn learning
- ##  critical commands
+# svn learning
+###  critical commands
  1, svn log -l 3 -v
  
    查看最近的3个revision, 以及相互之间有改动的文件。
@@ -95,7 +100,7 @@ git diff commit1 commit2 [--] [file directory]
    
    
 # git-svn
-## critical commands
+### critical commands
 1, git-svn rebase
 
 This will download all new changesets from Subversion, apply them to the last checkout from Subversion, and then re-apply your local changes on top of that.Just like git pull.
